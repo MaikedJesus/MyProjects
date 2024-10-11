@@ -1,0 +1,136 @@
+
+
+
+
+body{
+  
+   
+   padding: 20px;
+   
+}
+
+.encode-sans-i {
+  font-family: "Encode Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.foto{
+
+    width: 193px;
+    height: 110px;
+    margin: 10px;
+}
+
+
+ul{
+display: flex;
+}
+
+li{
+    width: 93px;
+    height: 40px;
+    flex: 1; /* isto é para a nav ocupar a largura toda menos a logo */
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */
+    font-size: 19px;
+    padding-top:13px ;
+    text-align: center;
+    font-weight: 700;
+   
+}
+
+.linhaH{
+    
+    border-bottom: #EBEDEF 1px solid;
+    width: auto;
+    height: 1px;
+    box-sizing:border-box;
+    margin: 5px;
+    margin-bottom: 8px;
+
+}
+.linhaV {
+
+    border-left: #EBEDEF 1px solid;
+    height: auto;
+    box-sizing:border-box;
+    margin: 20px;
+
+
+}
+
+.logo{
+    
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 4px;
+    padding-bottom: 10px;
+
+}
+
+.titulo_principal{
+    font-size: 52px;
+    width: 624px;
+    height: 201px;
+    font-weight: bold;
+    text-align: left;
+    color: #C4160C;
+
+}
+.principal{
+    font-weight: 700;
+    text-align: left;
+    padding-left:15px;
+    font-weight: 500;
+}
+
+.titulo{
+
+    color:#C4170C;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sub_titulo{
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3134;
+}
+
+.layout{
+    margin-bottom: 40px;
+    width: 195px;
+    margin: 20px;
+
+}
+.p_layout{
+font-size: 14px;
+color: #2F3134;
+font-weight: 400;
+}
+
+.layouts{
+
+    display: flex;
+   
+}
+
+.layout2{
+
+    display: flex;
+   
+
+}
+
+
+.geralnav{
+    display: flex;
+}
